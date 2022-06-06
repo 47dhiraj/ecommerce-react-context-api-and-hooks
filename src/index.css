@@ -1,0 +1,54 @@
+a:link {
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+
+h3 {
+  padding: 1rem 0;
+}
+
+
+/* .rating span{
+    margin:0.05rem;
+  } */
+
+
+.rating span {
+  padding-right: 1px;
+}
+
+
+.cart-basket {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 19px;
+  color: whitesmoke;
+}
+
+
+@media (min-width: 320px) and (max-width: 1023.98px) {
+  .cart-basket {
+    font-size: 0.8rem;
+    top: 34%;
+  }
+}
+
+
+@media (min-width: 280px) and (max-width: 319.98px) {
+  .cart-basket {
+    font-size: 0.6rem;
+    top: 50%;
+  }
+}
